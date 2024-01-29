@@ -20,11 +20,11 @@
 
 <body>
     <div class="container">
-        <h3 class="text-uppercase text-center my-5">form đăng nhập</h3>
+        <h3 class="text-uppercase text-center my-5">Form đăng nhập</h3>
         <form action="handle.php" method="post">
             Username: <input type="text" name="username" class="form-control" required="">
             Password: <input type="password" name="password" id="" class="form-control" required="">
-            <input type="submit" class="btn btn-block btn-info my-5">
+            <input type="submit" class="btn btn-block btn-info my-5" value="Login">
         </form>
     </div>
 </body>
