@@ -1,0 +1,17 @@
+.main {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.table {
+    width: 80%;
+    height: 80%;
+    text-align: center;
+}
+
+.add-btn {
+    display: flex;
+    justify-content: center;
+
+}
