@@ -1,3 +1,4 @@
+<?php include 'View/form.php' ?>
 <?php
 $username = $_POST['username'];
 $password = $_POST['password'];
@@ -10,13 +11,13 @@ echo "<pre>";
 print_r($result);
 echo "</pre>";
 ?>
-<!-- <?php if ($result['password'] == $password): ?>
+<?php if ($result['password'] == $password): ?>
     <script>
         alert("Đăng nhập thành công");
-        window.location.replace("admin/homepage.php");
+        window.location.href("formlogin/admin/homepage.php");
     </script>
 <?php else: ?>
     <script>alert("Đăng nhập thất bại")</script>
-<?php endif; ?> -->
+<?php endif; ?>
 
 <?php $conn->close(); ?>

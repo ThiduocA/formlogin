@@ -40,7 +40,10 @@
                     <td>
                         <?= $row['quantity'] ?>
                     </td>
-                    <td><button class="fix-btn">Sửa</button></td>
+                    <td><button class="fix-btn">
+                            <a href="View/edit.php"></a>Sửa
+                        </button>
+                    </td>
                 </tr>
 
             <?php endwhile; ?>
@@ -54,13 +57,13 @@
 </body>
 
 </html>
-<script>
+<!-- <script>
     document.querySelectorAll(".fix-btn").forEach(function (button) {
         button.addEventListener("click", function () {
             window.location.replace("edit.php")
         });
     });
-</script>
+</script> -->
 <script>
     document.querySelectorAll(".add-btn").forEach(function (button) {
         button.addEventListener("click", function () {
